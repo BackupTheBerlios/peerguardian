@@ -658,7 +658,7 @@ public:
   MyTaskBarIcon( MainFrame * frame ) : m_frame(frame) { }
   virtual ~MyTaskBarIcon( ) { }
 
-  void ShowFrame( wxEvent& WXUNUSED(event) )
+  void ShowFrame( wxTaskBarIconEvent& WXUNUSED(event) )
   {
     if ( !m_frame->IsShown() )
     {

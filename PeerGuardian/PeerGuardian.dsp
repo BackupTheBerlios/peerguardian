@@ -85,7 +85,7 @@ SOURCE="$(InputPath)"
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /MDd /W4 /Gm /GR /GX /Zi /Od /I ".\..\..\include" /I ".\..\..\lib\vc_lib\mswud" /I "." /I ".\..\..\samples" /D "WIN32" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "_WINDOWS" /Fd"vc_mswud\PeerGuardian.pdb" /FD /GZ /c
-# ADD CPP /nologo /MDd /W4 /Gm /GR /GX /Zi /Od /I "C:\Program Files\Coding\wxWindows\lib\vc_lib\mswud" /D "WIN32" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "_WINDOWS" /D "UNICODE" /FR /Yu"stdwx.h" /Fd"vc_mswud\PeerGuardian.pdb" /FD /GZ /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /GX /Zi /Od /I "C:\Program Files\Coding\wxWidgets\lib\vc_lib\mswud" /D "WIN32" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "_WINDOWS" /D "UNICODE" /FR /Yu"stdwx.h" /Fd"vc_mswud\PeerGuardian.pdb" /FD /GZ /c
 # ADD BASE MTL /nologo /D "WIN32" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "_WINDOWS" /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "_WINDOWS" /mktyplib203 /win32
 # ADD BASE RSC /l 0x405 /i ".\..\..\include" /i ".\..\..\lib\vc_lib\mswud" /i "." /i ".\..\..\samples" /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "_UNICODE" /d "_WINDOWS"
