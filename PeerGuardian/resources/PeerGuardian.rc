@@ -1,0 +1,6 @@
+// aaaaa because I want it to be the 1st icon (= icon shown as exe-picture)
+aaaaaaaa ICON "pg.ico"
+// Main icon...
+PeerGuardian ICON "pg.ico"
+// Bitmap
+PG_Logo BITMAP "PG_Logo.bmp"

@@ -1,0 +1,43 @@
+PeerGuardian++:
+===============
+PeerGuardian is a tool that blocks incoming ports from specified IPs (much like a firewall, but then on a single selection of IPs)
+
+The name is chosen because of it is the port of PeerGuardian (www.peerguardian.net) from Visual Basic to C++.
+
+It is much faster and stabler then the original program written in Visual Basic. Although there are some sideeffects.
+
+
+I am releasing this source under the GPL because I don't have any time more to work at this nifty tool.
+
+
+
+
+ToDo:
+-----
+- Include the blocklist modifier
+- Include a TDI or NDIS driver so you can block effectively all incoming connections without the overhead of needing to check every xxx ms for new connections.
+- Compile it on a Mac and on Linux (it IS possible, but the GNU_Functions.cpp routine should be changed)
+- Include some functions so you can choose the language (the possibility to extract all the strings is already there: run 'xgettext -ffilelist.txt -ddpd -k_ --omit-header' to get them)
+
+
+
+Obligations:
+------------
+Changes to the source should be submitted to me, so I can change them in the source.
+Be warned that if you ever uses any part of my source in your program, that part of your source should be opensource too. Please be so kind to let me know if you did. Then I can update my source if you made some enhancements.
+
+
+
+Thanks:
+-------
+- To wxWindows (now called wxWidgets) for the excellent framework
+- To method for releasing his PeerGuardian source so I could have the possibility to convert it to C++
+- To the few people submitting bugs to me.
+
+
+
+Credits:
+--------
+Steven 'KaReL' Van Ingelgem
+karel@linux.be
+ICQ: 35217584
